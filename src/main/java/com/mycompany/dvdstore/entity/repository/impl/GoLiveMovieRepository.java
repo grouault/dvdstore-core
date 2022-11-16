@@ -1,12 +1,13 @@
-package com.mycompany.dvdstore.repository;
+package com.mycompany.dvdstore.entity.repository.impl;
 
 import com.mycompany.dvdstore.entity.Movie;
+import com.mycompany.dvdstore.entity.repository.MovieRepository;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class GoLiveMovieRepository {
+public class GoLiveMovieRepository implements MovieRepository {
 
-    public void add(Movie movie){
+    public void addMovie(Movie movie){
         FileWriter writer;
         try{
             writer=new FileWriter("C:\\tmp\\dvdstore\\dvdstore.txt",true);

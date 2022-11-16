@@ -2,11 +2,12 @@ package com.mycompany.dvdstore.controller;
 
 import com.mycompany.dvdstore.entity.Movie;
 import com.mycompany.dvdstore.service.MovieService;
+import com.mycompany.dvdstore.service.impl.MovieServiceImpl;
 import java.util.Scanner;
 
 public class MovieController {
 
-    private MovieService movieService = new MovieService();
+    private MovieService movieService;
 
     public void addUsingConsole(){
 
