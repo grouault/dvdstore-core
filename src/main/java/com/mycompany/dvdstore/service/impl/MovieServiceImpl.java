@@ -16,4 +16,8 @@ public class MovieServiceImpl implements MovieService {
         movieRepository.addMovie(movie);
     }
 
+    public void setMovieRepository(MovieRepository movieRepository) {
+        this.movieRepository = movieRepository;
+    }
+
 }

@@ -1,6 +1,11 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-4 : injection des implémentations
+au niveau de App injection:
+- du service au niveau du controller
+- du repository au niveau du service
+
 ## exo-3 : création des interfaces
 - MovieRepository
 - MovieService

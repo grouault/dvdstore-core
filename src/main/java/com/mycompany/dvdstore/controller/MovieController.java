@@ -26,4 +26,8 @@ public class MovieController {
 
     }
 
+    public void setMovieService(MovieService movieService) {
+        this.movieService = movieService;
+    }
+
 }
