@@ -1,6 +1,12 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-5 : changement de perspective
+- d'une construction des classes sur la vision/configuration client
+- on passe à une vision composant et fonctionnalité
+==> renommage des classes en conséquences : 
+GoLiveMovieRepository => FileMovieRepository
+
 ## exo-4 : injection des implémentations
 au niveau de App injection:
 - du service au niveau du controller

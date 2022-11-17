@@ -5,7 +5,7 @@ import com.mycompany.dvdstore.entity.repository.MovieRepository;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class GoLiveMovieRepository implements MovieRepository {
+public class FileMovieRepositoryImpl implements MovieRepository {
 
     public void addMovie(Movie movie){
         FileWriter writer;
@@ -17,7 +17,7 @@ public class GoLiveMovieRepository implements MovieRepository {
         catch (IOException e){
             e.printStackTrace();
         }
-        System.out.println("[GoLiveMovieRepository] : The movie " + movie.getTitle() + " has been added.");
+        System.out.println("[FileMovieRepositoryImpl] : The movie " + movie.getTitle() + " has been added.");
     }
 
 }
