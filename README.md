@@ -1,6 +1,9 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-8 : injection automatique des dépendances
+- autowire byType
+
 ## exo-7 : valoriser une propriété de type File
 - FileMovieRepository : ajout de la propriété file
 

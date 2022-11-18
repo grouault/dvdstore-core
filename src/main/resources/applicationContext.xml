@@ -7,12 +7,10 @@
     <bean id="fileMovieRepository" class="com.mycompany.dvdstore.repository.impl.FileMovieRepositoryImpl">
         <property name="file" value="c:\\tmp\\dvdstore\\dvdstore.csv" />
     </bean>
-    <bean id="memoryMovieRepository" class="com.mycompany.dvdstore.repository.impl.MemoryMovieRepositoryImpl" />
-    <bean id="movieService" class="com.mycompany.dvdstore.service.impl.DefaultMovieServiceImpl">
-        <property name="movieRepository" ref="fileMovieRepository" />
+    <!-- bean id="memoryMovieRepository" class="com.mycompany.dvdstore.repository.impl.MemoryMovieRepositoryImpl" /-->
+    <bean id="movieService" class="com.mycompany.dvdstore.service.impl.DefaultMovieServiceImpl" autowire="byType">
     </bean>
-    <bean class="com.mycompany.dvdstore.controller.MovieController">
-        <property name="movieService" ref="movieService" />
+    <bean class="com.mycompany.dvdstore.controller.MovieController" autowire="byType">
     </bean>
 
 </beans>
