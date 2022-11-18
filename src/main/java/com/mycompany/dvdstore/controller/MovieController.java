@@ -3,9 +3,11 @@ package com.mycompany.dvdstore.controller;
 import com.mycompany.dvdstore.entity.Movie;
 import com.mycompany.dvdstore.service.MovieService;
 import java.util.Scanner;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class MovieController {
 
+    @Autowired
     private MovieService movieService;
 
     public void addUsingConsole(){

@@ -1,6 +1,10 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-9 : annotation des dépendances
+- context:annotation-config
+- @Autowired
+
 ## exo-8 : injection automatique des dépendances
 - autowire byType
 
