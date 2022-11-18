@@ -1,6 +1,10 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-6 : exploiter le conteneur léger de Spring
+- Mise en place de SPRING-CONTEXT
+- Création du fichier applicationContext
+
 ## exo-5 : changement de perspective
 - d'une construction des classes sur la vision/configuration client
 - on passe à une vision composant et fonctionnalité

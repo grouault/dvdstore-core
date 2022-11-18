@@ -1,7 +1,7 @@
-package com.mycompany.dvdstore.entity.repository.impl;
+package com.mycompany.dvdstore.repository.impl;
 
 import com.mycompany.dvdstore.entity.Movie;
-import com.mycompany.dvdstore.entity.repository.MovieRepository;
+import com.mycompany.dvdstore.repository.MovieRepository;
 import java.io.FileWriter;
 import java.io.IOException;
 

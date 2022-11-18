@@ -1,4 +1,4 @@
-package com.mycompany.dvdstore.entity.repository;
+package com.mycompany.dvdstore.repository;
 
 import com.mycompany.dvdstore.entity.Movie;
 

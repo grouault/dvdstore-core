@@ -1,7 +1,7 @@
 package com.mycompany.dvdstore.service;
 
 import com.mycompany.dvdstore.entity.Movie;
-import com.mycompany.dvdstore.entity.repository.MovieRepository;
+import com.mycompany.dvdstore.repository.MovieRepository;
 
 public interface MovieService {
 
