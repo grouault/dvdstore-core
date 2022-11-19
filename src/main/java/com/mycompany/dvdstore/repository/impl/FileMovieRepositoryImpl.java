@@ -5,9 +5,11 @@ import com.mycompany.dvdstore.repository.MovieRepository;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import org.springframework.beans.factory.annotation.Value;
 
 public class FileMovieRepositoryImpl implements MovieRepository {
 
+    @Value("${movies.file.location}")
     private File file;
 
     public void addMovie(Movie movie){
@@ -21,14 +23,6 @@ public class FileMovieRepositoryImpl implements MovieRepository {
             e.printStackTrace();
         }
         System.out.println("[FileMovieRepositoryImpl] : The movie " + movie.getTitle() + " has been added.");
-    }
-
-    public File getFile() {
-        return file;
-    }
-
-    public void setFile(File file) {
-        this.file = file;
     }
 
 }

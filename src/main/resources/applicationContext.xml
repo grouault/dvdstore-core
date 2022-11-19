@@ -8,10 +8,10 @@
 
 
     <context:annotation-config />
+    <context:property-placeholder location="classpath:application.properties" />
 
-    <bean id="fileMovieRepository" class="com.mycompany.dvdstore.repository.impl.FileMovieRepositoryImpl">
-        <property name="file" value="c:\\tmp\\dvdstore\\dvdstore.csv" />
-    </bean>
+    <bean id="fileMovieRepository" class="com.mycompany.dvdstore.repository.impl.FileMovieRepositoryImpl" />
+
     <!-- bean id="memoryMovieRepository" class="com.mycompany.dvdstore.repository.impl.MemoryMovieRepositoryImpl" /-->
     <bean id="movieService" class="com.mycompany.dvdstore.service.impl.DefaultMovieServiceImpl" />
 
