@@ -4,7 +4,9 @@ import com.mycompany.dvdstore.entity.Movie;
 import com.mycompany.dvdstore.repository.MovieRepository;
 import com.mycompany.dvdstore.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class DefaultMovieServiceImpl implements MovieService {
 
     private int counter = 0;
