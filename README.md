@@ -1,6 +1,9 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-18 : fichier statiques hors de l'application
+- mise en commentaire
+
 ## exo-17-18 : Ressource web statiques
 - changer le port et le context
 - fichier static sur le système de fichier
