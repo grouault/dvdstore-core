@@ -6,9 +6,11 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
 @Repository
+@Primary
 public class FileMovieRepositoryImpl implements MovieRepository {
 
     @Value("${movies.file.location}")

@@ -1,6 +1,29 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-14 : passer à Spring-Boot
+- ajout de la librairie spring-boot-autoconfigure
+
+## exo-13 : déplacer les annotations vers la classe exécutable
+On peut se passer des classes spécifique de configuration,
+en mettant l'annotation @Config sur la classe App
+La classe App est une classe exécutable.
+La machine virtuelle va lancer la méthode static main.
+La classe ne sera alors instancier qu'à l'exécution du code suivant :
+ApplicationContext applicationContext = new AnnotationConfigApplicationContext(App.class);
+L'objet sera placé dans le container léger de Spring
+
+## exo-12 : se passer du fichier xml
+- @Configuration
+- @ComponentScan
+- @PropertySource
+
+## exo-11 : détection automatique des beans
+- @ComponentScan
+
+## exo-10 : annotation du chemin du fichier .csv
+- @Value et fichier application.properties
+
 ## exo-9 : annotation des dépendances
 - context:annotation-config
 - @Autowired
