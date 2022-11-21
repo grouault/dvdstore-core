@@ -1,6 +1,10 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-17-18 : Ressource web statiques
+- changer le port et le context
+- fichier static sur le système de fichier
+
 ## exo-16 : mettre en place le serveur d'application
 - mise en place du starter : spring-boot-starter-web
 
