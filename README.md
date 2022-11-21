@@ -1,6 +1,9 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-16 : mettre en place le serveur d'application
+- mise en place du starter : spring-boot-starter-web
+
 ## exo-15 : standard maven
 - mise en place de spring-boot avec les starters maven
 
