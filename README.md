@@ -1,6 +1,9 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-15 : standard maven
+- mise en place de spring-boot avec les starters maven
+
 ## exo-14 : passer à Spring-Boot
 - ajout de la librairie spring-boot-autoconfigure
 
