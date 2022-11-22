@@ -1,6 +1,10 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+
+## exo-19 : DVDStore - About Us
+- Mise en place du controller Spring MVC
+
 ## exo-18 : fichier statiques hors de l'application
 - mise en commentaire
 
