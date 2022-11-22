@@ -16,4 +16,9 @@ public class MemoryMovieRepositoryImpl implements MovieRepository {
         System.out.println("[MemoryMovieRepositoryImpl] : The movie " + movie.getTitle() + " has been added.");
     }
 
+    @Override
+    public List<Movie> list() {
+        return movies;
+    }
+
 }
