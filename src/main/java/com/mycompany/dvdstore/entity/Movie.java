@@ -2,18 +2,28 @@ package com.mycompany.dvdstore.entity;
 
 public class Movie {
 
-    private int id;
+    private Long id;
 
     private String title;
 
     private String genre;
 
-    public int getId() {
+    private String description;
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getTitle() {
@@ -31,5 +41,7 @@ public class Movie {
     public void setGenre(String genre) {
         this.genre = genre;
     }
+
+
 
 }

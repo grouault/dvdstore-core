@@ -21,4 +21,11 @@ public class MemoryMovieRepositoryImpl implements MovieRepository {
         return movies;
     }
 
+    @Override
+    public Movie getById(Long id) {
+        return movies.stream().
+                     filter(m -> m.getId()==id).
+                     findFirst().get();
+    }
+
 }

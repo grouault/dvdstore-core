@@ -16,13 +16,18 @@ public class DefaultMovieServiceImpl implements MovieService {
     private MovieRepository movieRepository;
 
     public void registerMovie(Movie movie) {
-        movie.setId(++counter);
+        movie.setId(Long.valueOf((++counter)));
         movieRepository.addMovie(movie);
     }
 
     @Override
     public List<Movie> getMovieList() {
         return movieRepository.list();
+    }
+
+    @Override
+    public Movie getMovieById(Long id) {
+        return movieRepository.getById(id);
     }
 
     public void setMovieRepository(MovieRepository movieRepository) {

@@ -1,6 +1,9 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-23: afficher le detail d'un film
+- MovieRepository.getById(Long id)
+
 ## exo-22: séparer les responsabilités
 - transformation du projet en librairie
 - création du projet dvdstore-web
