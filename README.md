@@ -1,6 +1,8 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
+## exo-24: ajouter un film
+
 ## exo-23: afficher le detail d'un film
 - MovieRepository.getById(Long id)
 

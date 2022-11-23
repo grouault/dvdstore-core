@@ -10,13 +10,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class DefaultMovieServiceImpl implements MovieService {
 
-    private int counter = 0;
-
     @Autowired
     private MovieRepository movieRepository;
 
     public void registerMovie(Movie movie) {
-        movie.setId(Long.valueOf((++counter)));
         movieRepository.addMovie(movie);
     }
 
