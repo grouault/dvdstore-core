@@ -1,7 +1,14 @@
 # spb-dvdstore-0
 dvd store - mise en place de spring
 
-## exo-19 : DVDStore - About Us Page
+## exo-22: séparer les responsabilités
+- transformation du projet en librairie
+- création du projet dvdstore-web
+
+## exo-21: DVDStore - Afficher la liste des films
+- RequestMapping dans le controller
+
+## exo-20 : DVDStore - About Us Page
 - ajout de la vue
 - ajout de la locale
 
