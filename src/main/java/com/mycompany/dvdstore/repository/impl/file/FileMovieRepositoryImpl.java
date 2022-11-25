@@ -21,7 +21,7 @@ public class FileMovieRepositoryImpl implements MovieRepository {
     @Value("${movies.file.location}")
     private File file;
 
-    public void addMovie(Movie movie){
+    public Movie addMovie(Movie movie){
         FileWriter writer;
         try{
             long lastId=list().stream().map(Movie::getId).max(Long::compare).orElse(0L);
@@ -34,6 +34,7 @@ public class FileMovieRepositoryImpl implements MovieRepository {
             e.printStackTrace();
         }
         System.out.println("[FileMovieRepositoryImpl] : The movie " + movie.getTitle() + " has been added.");
+        return movie;
     }
 
     @Override

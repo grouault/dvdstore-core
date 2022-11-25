@@ -13,8 +13,8 @@ public class DefaultMovieServiceImpl implements MovieService {
     @Autowired
     private MovieRepository movieRepository;
 
-    public void registerMovie(Movie movie) {
-        movieRepository.addMovie(movie);
+    public Movie registerMovie(Movie movie) {
+        return movieRepository.addMovie(movie);
     }
 
     @Override

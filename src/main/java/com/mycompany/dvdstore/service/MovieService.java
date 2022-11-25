@@ -8,7 +8,7 @@ public interface MovieService {
 
     void setMovieRepository(MovieRepository movieRepository);
 
-    void registerMovie(Movie movie);
+    Movie registerMovie(Movie movie);
 
     List<Movie> getMovieList();
 
